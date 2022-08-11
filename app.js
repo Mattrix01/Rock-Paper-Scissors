@@ -19,14 +19,11 @@ function generateComputerChoice() {
   // if statements to define which each choice equals from random number generated
   if (randomNumber === 1) {
     computerChoice = "rock";
-  }
-  if (randomNumber === 2) {
+  } else if (randomNumber === 2) {
     computerChoice = "paper";
-  }
-  if (randomNumber === 3) {
+  } else if (randomNumber === 3) {
     computerChoice = "scissors";
   }
   // adds html of computers choice from its random generated choice
   computerChoiceDisplay.innerHTML = computerChoice;
 }
-// time in: 9 mins
