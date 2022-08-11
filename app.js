@@ -38,7 +38,7 @@ function generateComputerChoice() {
 // function to output the winner into result by comparing what choices equal to
 function getResult() {
   if (computerChoice === userChoice) {
-    result = "its a draw!";
+    result = "Its a draw!";
     // computer wins
   } else if (computerChoice === "Scissors" && userChoice === "Paper") {
     result = "Scissors cuts Paper, you lose!";
